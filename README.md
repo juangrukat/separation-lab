@@ -85,8 +85,4 @@ Images are processed locally. No analytics, cloud upload, or server dependency i
 - [ ] Investigate surface offset and LiDAR-assisted positioning as separate experiments.
 - [ ] Complete accessibility, broader device testing, and production engineering.
 
-## Research context
 
-Inspired by Zhang et al., *Automated vision-based dimensional inspection in car body assembly line with image sequence processing*, International Journal of Production Research (2026), [DOI: 10.1080/00207543.2026.2729779](https://doi.org/10.1080/00207543.2026.2729779). The paper's performance is **not** a specification for this app. Its PDF and industrial dataset are not distributed here.
-
-[Development notes](docs/DEVELOPMENT-NOTES.md) preserve the experiment's history. This is an unfinished research prototype, not a certified measuring product.
