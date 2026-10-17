@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BFD8A4BFA9807D1CC309C5E /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D606D4313C155982DB40CCF /* Camera.swift */; };
+		2F21C7C3A4122F5FC192BD85 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1369E15CEBA68E37C856520A /* Registration.swift */; };
+		612E1A05F182CAA100A01B92 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CECC9CA31B7A9F13DE8AC /* App.swift */; };
+		A7BC6948EEF57C474C54FC54 /* ReferenceField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEEEADDA12CFB5C988D4A8A /* ReferenceField.swift */; };
+		AE7C9AFDA4326B88F56407F4 /* Luminance.metal in Sources */ = {isa = PBXBuildFile; fileRef = E94C12E1466C27EDC47B617A /* Luminance.metal */; };
+		D08255D0616C5851A7525805 /* PointPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2142EC28B807E0E4EA6B5C84 /* PointPicker.swift */; };
+		EFF89FDE0423DD0B21369485 /* Imaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EE889506159E0B4AA068EF /* Imaging.swift */; };
+		FE900B008B6BECAB7D8C428C /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DE860672C7568EDFCDD733 /* Measurement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041CECC9CA31B7A9F13DE8AC /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		1369E15CEBA68E37C856520A /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		1D606D4313C155982DB40CCF /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		2142EC28B807E0E4EA6B5C84 /* PointPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointPicker.swift; sourceTree = "<group>"; };
+		30EE889506159E0B4AA068EF /* Imaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging.swift; sourceTree = "<group>"; };
+		6F33C35A46BB8165B7C9ECCF /* SeparationLab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SeparationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DE860672C7568EDFCDD733 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		E94C12E1466C27EDC47B617A /* Luminance.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Luminance.metal; sourceTree = "<group>"; };
+		FFEEEADDA12CFB5C988D4A8A /* ReferenceField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0FBA7295E2BF330C2E339978 /* SeparationLab */ = {
+			isa = PBXGroup;
+			children = (
+				041CECC9CA31B7A9F13DE8AC /* App.swift */,
+				1D606D4313C155982DB40CCF /* Camera.swift */,
+				30EE889506159E0B4AA068EF /* Imaging.swift */,
+				E94C12E1466C27EDC47B617A /* Luminance.metal */,
+				E5DE860672C7568EDFCDD733 /* Measurement.swift */,
+				2142EC28B807E0E4EA6B5C84 /* PointPicker.swift */,
+				FFEEEADDA12CFB5C988D4A8A /* ReferenceField.swift */,
+				1369E15CEBA68E37C856520A /* Registration.swift */,
+			);
+			path = SeparationLab;
+			sourceTree = "<group>";
+		};
+		96E52FBC7B1897A15A1C2ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F33C35A46BB8165B7C9ECCF /* SeparationLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B147ED05798D3004834933A7 = {
+			isa = PBXGroup;
+			children = (
+				0FBA7295E2BF330C2E339978 /* SeparationLab */,
+				96E52FBC7B1897A15A1C2ED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80CA023B56ADE389D39C6A48 /* SeparationLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD1528D2E9E534EC0E391B1 /* Build configuration list for PBXNativeTarget "SeparationLab" */;
+			buildPhases = (
+				D8D436F6D09B8E9013EEED63 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeparationLab;
+			packageProductDependencies = (
+			);
+			productName = SeparationLab;
+			productReference = 6F33C35A46BB8165B7C9ECCF /* SeparationLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B559658D8D18B916CDAF1CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					80CA023B56ADE389D39C6A48 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 96335678C08613CAD166FD03 /* Build configuration list for PBXProject "SeparationLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B147ED05798D3004834933A7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 96E52FBC7B1897A15A1C2ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80CA023B56ADE389D39C6A48 /* SeparationLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8D436F6D09B8E9013EEED63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612E1A05F182CAA100A01B92 /* App.swift in Sources */,
+				0BFD8A4BFA9807D1CC309C5E /* Camera.swift in Sources */,
+				EFF89FDE0423DD0B21369485 /* Imaging.swift in Sources */,
+				AE7C9AFDA4326B88F56407F4 /* Luminance.metal in Sources */,
+				FE900B008B6BECAB7D8C428C /* Measurement.swift in Sources */,
+				D08255D0616C5851A7525805 /* PointPicker.swift in Sources */,
+				A7BC6948EEF57C474C54FC54 /* ReferenceField.swift in Sources */,
+				2F21C7C3A4122F5FC192BD85 /* Registration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1652840EC48B82C1C5F845BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Separation Lab";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Capture material edges and a nearby scale reference to investigate separation measurements.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = local.separationlab.measure;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23D38CA99C229E5C3BE65CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A66C634DA95C8727CBDB0AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BD07F838B8EFCE4E2C4598B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Separation Lab";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Capture material edges and a nearby scale reference to investigate separation measurements.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = local.separationlab.measure;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD1528D2E9E534EC0E391B1 /* Build configuration list for PBXNativeTarget "SeparationLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD07F838B8EFCE4E2C4598B4 /* Debug */,
+				1652840EC48B82C1C5F845BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		96335678C08613CAD166FD03 /* Build configuration list for PBXProject "SeparationLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66C634DA95C8727CBDB0AD2 /* Debug */,
+				23D38CA99C229E5C3BE65CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B559658D8D18B916CDAF1CF7 /* Project object */;
+}
